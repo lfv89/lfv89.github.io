@@ -1,0 +1,60 @@
+body {
+  height: 80vh;
+}
+
+section.main {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  text-transform: uppercase;
+
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+
+  width: 70%;
+  padding: 8px;
+}
+
+section.main h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+section.main ul {
+  list-style: none;
+}
+
+section.main ul li {
+  display: inline;
+  font-size: 20px;
+}
+
+section.main ul.links {
+}
+
+section.main ul.links li {
+  font-size: 25px;
+  margin-right: 30px;
+}
+
+section.main ul.links li a {
+  color: #000;
+  text-decoration: none;
+}
+
+section.main ul.social {
+  margin-top: 20px;
+}
+
+section.main ul.social li {
+  font-size: 23px;
+  margin-right: 30px;
+}
+
+section.main ul.social li a {
+  color: #000;
+  text-decoration: none;
+}
