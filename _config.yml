@@ -1,0 +1,36 @@
+markdown: redcarpet
+highlighter: pygments
+gems:
+  - jemoji
+
+title: "Luis Vasconcellos"
+description: >
+  developer. vim and tmux enthusiast.
+
+email: vasconcelloslf@gmail.com
+logo: "/assets/images/luis.jpg"
+cover: "/assets/images/cover.jpg"
+
+paginate:	5
+
+name: 'Luis Vasconellos'
+author: 'Luis Vasconellos'
+author_image: "/assets/images/luis.jpg"
+
+url: "http://luisvasconcellos.com"
+baseurl: ""
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/vasconcelloslf
+    desc: Follow me
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	github
+    url:	https://github.com/vasconcelloslf
+    desc:	Fork me
+    share_url:
+    share_title:
+    share_link:
