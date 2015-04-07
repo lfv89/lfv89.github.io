@@ -27,7 +27,6 @@ layout: default
 
     <!-- <h5 class="index-headline normal"><span>Regular</span></h5> -->
     <!-- {% endif %} -->
-
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
@@ -38,8 +37,15 @@ layout: default
             </h2>
           </header>
           <section class="post-excerpt" itemprop="description">
-            <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+            <p>
+              {% if post.content contains "<!-- more -->" %}
+                {{ post.content | split:"<!-- more -->" | first % }}
+              {% else %}
+                {{ post.content | strip_html | truncatewords:50 }}
+              {% endif %}
+            </p>
           </section>
+
           <div class="post-meta">
             <span>
               <a href="{{ post.url }}">Continue lendo</a>

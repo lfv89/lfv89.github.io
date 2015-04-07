@@ -4,7 +4,9 @@ title: Projetos
 permalink: /projetos/
 ---
 
-Esses são alguns dos dos projetos que eu criei: alguns plugins pro vim, um app base para projetos ionic, uma box do vagrant provisionada com o phonegap, uma real time spread sheet feita com backbone, node e pusher além de uma pequena app para exibir a descrição de gems feita com node e angular. A lista completa está no meu github.
+Esses são alguns dos dos projetos pessoais que eu criei. Procuro criar projetos que me pareçam de alguma forma desafiadores ou que vão me expor a alguma tecnologia que ainda não me é familiar.
+
+Entre os meus projetos estão alguns plugins pro vim, um app starter apps em ionic, uma box do vagrant provisionada com o phonegap, uma real time spread sheet feita com backbone, node e pusher além de uma pequena app para exibir a descrição de gems feita com node e angular. A lista completa está [no meu github](http://github.com/vasconcelloslf).
 
 <br/>
 <div class="projetos">
