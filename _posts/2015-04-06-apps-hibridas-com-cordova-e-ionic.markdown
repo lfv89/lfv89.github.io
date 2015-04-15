@@ -7,7 +7,7 @@ comments: true
 read_time: 7 min
 ---
 
-Nessa série de artigos dividos em 3 partes vou falar sobre desenvolvimento híbrido um pouco mais a fundo. Nessa primeira parte entenderemos o que são exatamente o cordova e o ionic, e onde cada um se encaixa na construção de uma app híbrida.
+Nessa série divida em 3 partes vou falar um pouco mais a fundo sobre desenvolvimento híbrido. Nessa primeira parte entenderemos o que são exatamente o cordova e o ionic, e onde cada um se encaixa na construção de uma app híbrida.
 
 <!-- more -->
 
@@ -21,7 +21,7 @@ Webview é o nome dado a um tipo especial de browser que começa a rodar assim q
 
 Por isso o nome híbrido: uma parte da app é feita em código nativo para ser empacotada e distribuída nas app stores, e a outra parte é feita de código não nativo (html, css e javascript) que implementa todo o visual e o comportamento da app.
 
-Talvez a grande sacada de uma webview é que ela não se limita à renderização da app. Ela também consegue acessar recursos nativos do dispositivo como a **camera, microfone, acelerômetro**, etc... Isso é possível graças a uma interface javascript que torna a webview apta a executar código nativo nos dispositivos.
+A grande sacada de uma webview é que ela não se limita à renderização da app. Ela também consegue acessar recursos nativos do dispositivo como a **camera, microfone, acelerômetro**, etc... Isso é possível graças a uma interface javascript que torna a webview apta a executar código nativo nos dispositivos.
 
  Ou seja, no desenvolvimento híbrido é possível usar apenas **javascript** para acessar os **recursos nativos** do dispostivo, coisa que nenhum browser comum instalado no aparelho seria capaz de acessar.
 
