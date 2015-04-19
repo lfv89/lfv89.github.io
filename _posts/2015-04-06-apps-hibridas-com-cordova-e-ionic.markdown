@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Apps Híbridas com Cordova e Ionic
+title: "Apps Híbridas com Cordova e Ionic #1"
 date: 2015-04-06 23:44:22 +0000
 subject: apps híbridas
 comments: true
 read_time: 7 min
+tags: featured
 ---
 
 Nessa série divida em 3 partes vou falar um pouco mais a fundo sobre desenvolvimento híbrido. Nessa primeira parte entenderemos o que são exatamente o cordova e o ionic, e onde cada um se encaixa na construção de uma app híbrida.

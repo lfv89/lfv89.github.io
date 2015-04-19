@@ -3,7 +3,7 @@ layout: post
 title: Como o Rails Funciona?
 date: 2014-05-24 22:24:28 -0200
 comments: true
-tags: rails
+tags: featured
 read_time: 5 min
 subject: rails
 ---
