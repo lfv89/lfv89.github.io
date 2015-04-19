@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apps Híbridas com Cordova e Ionic (primeira parte)
+title: Apps Híbridas com Cordova e Ionic
 date: 2015-04-06 23:44:22 +0000
 subject: apps híbridas
 comments: true
