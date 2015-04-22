@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
   {% include stylesheets.html %}
+
   <body itemscope itemtype="http://schema.org/Article">
+    <div class="not-blank">
+      <a href="http://luisvasconcellos.com" class="logo-readium">
+        <span class="logo" style="background-image: url(/assets/images/luis.jpg)"></span>
+      </a>
+    </div>
+
     <main class="content" role="main">
       <article class="not-index post">
         {% if page.image %}
@@ -43,6 +50,7 @@
       <div id="disqus_thread"></div>
       <br/>
     </main>
+
     <div class="bottom-closer">
       <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
       </div>
@@ -52,6 +60,7 @@
         <a href="/" class="btn">Voltar</a>
       </div>
     </div>
+
     {% include javascripts.html %}
   </body>
 </html>
