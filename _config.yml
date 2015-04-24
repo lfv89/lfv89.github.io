@@ -8,6 +8,7 @@ description: >
   developer. vim and tmux enthusiast.
 
 email: vasconcelloslf@gmail.com
+
 logo: "/assets/images/luis.jpg"
 cover: "/assets/images/cover.jpg"
 
@@ -18,7 +19,6 @@ author: 'Luis Vasconellos'
 author_image: "/assets/images/luis.jpg"
 
 url: "http://luisvasconcellos.com"
-baseurl: ""
 
 social:
   - icon:	twitter
@@ -31,6 +31,6 @@ social:
   - icon:	github
     url:	https://github.com/vasconcelloslf
     desc:	Fork me
-    share_url:
-    share_title:
-    share_link:
+
+  - icon:	linkedin
+    url:	https://www.linkedin.com/profile/view?id=108062830
