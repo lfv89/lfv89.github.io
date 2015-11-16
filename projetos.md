@@ -4,9 +4,9 @@ title: Projetos
 permalink: /projetos/
 ---
 
-Esses são alguns de meus projetos open source. Busco criar projetos que considero desafiadores ou que vão me expor a alguma tecnologia interessante com a qual eu ainda não tenha trabalhado.
+Esses são alguns de meus projetos open source. Busco criar projetos que considero desafiadores ou que vão me expor a alguma tecnologia interessante e que ainda não me seja familiar.
 
-Entre eles estão alguns plugins pro vim, um plugin para o cordova, uma app base para ionic, uma box do vagrant para o phonegap, uma real time spread sheet feita com backbone, node e pusher além de uma pequena app para exibir a descrição de gems feita com node e angular. A lista completa está [no github](http://github.com/vasconcelloslf).
+Entre eles estão alguns plugins pro vim (VimL), um plugin para o cordova (Objective-C/Java) e alguns projetinhos em ruby e javascript. A lista completa está [no github](http://github.com/vasconcelloslf).
 
 <br/>
 <div class="projetos">
