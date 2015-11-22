@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Domine o Rails Console"
+title: Domine o Console do Rails
 date: 2014-05-23 22:27:10 -0200
 comments: true
 read_time: 2 min
