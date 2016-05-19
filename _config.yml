@@ -7,7 +7,7 @@ title: "Luis Vasconcellos"
 description: >
   My thoughts on software development
 
-email: vasconcelloslf@gmail.com
+email: luis@luisvasconcellos.com
 
 logo: "/assets/images/luis.jpg"
 cover: "/assets/images/cover.jpg"
@@ -22,14 +22,14 @@ url: "http://luisvasconcellos.com"
 
 social:
   - icon:	twitter
-    url:	https://twitter.com/vasconcelloslf
+    url:	https://twitter.com/lfv89
     desc: Follow me
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
 
   - icon:	github
-    url:	https://github.com/vasconcelloslf
+    url:	https://github.com/lfv89
     desc:	Fork me
 
   - icon:	linkedin
