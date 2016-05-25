@@ -1,7 +1,9 @@
+exclude: [vendor]
 markdown: redcarpet
 highlighter: pygments
 gems:
   - jemoji
+  - jekyll-paginate
 
 title: "Luis Vasconcellos"
 description: >
