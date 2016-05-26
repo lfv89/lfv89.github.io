@@ -43,8 +43,8 @@
             <section class="author">
               <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
               <h4>{{ site.author }}</h4>
-              <p class="bio">{{site.description}}</p>
-              <p class="bio"><a href="http://twitter.com/vasconcelloslf">Siga-me</a> no twitter para saber mais sobre <span class="subject">{{page.subject}}</span></p>
+              <p class="bio">{{site.author_job_title}}</p>
+              <p class="bio">Sou um desenvolvedor apaixonado pelo que faço. Até o momento tenho dedicado minha carreira à construção de produtos feitos principalmente com ruby e javascript para a Web, iOS e Android.
             </section>
           </div>
           {{/post}}
@@ -53,16 +53,6 @@
       <div id="disqus_thread"></div>
       <br/>
     </main>
-
-    <div class="bottom-closer">
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
-      </div>
-      <div class="inner">
-        <h1 class="blog-title">{{ site.title }}</h1>
-        <h2 class="blog-description">{{ site.description }}</h2>
-        <a href="/" class="btn">Voltar</a>
-      </div>
-    </div>
 
     {% include javascripts.html %}
   </body>

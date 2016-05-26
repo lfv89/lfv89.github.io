@@ -75,4 +75,4 @@ Baseado nesse projeto da Vivo, compilei as técnicas que aprendi em um projeto s
 
 ## Fim ##
 
-Essa foi a primeira parte da série de artigos sobre desenvolvimento híbrido. Na segunda parte vou mostrar como instalar e configurar o ambiente para desenvolver uma aplicação cordova utilizando ionic e consumindo dados de uma API REST. Assine os feeds do blog ou siga [@vasconcelloslf](http://twitter.com/vasconcelloslf) no twitter para acompanhar o lançamento das próximas partes.
+Essa foi a primeira parte da série de artigos sobre desenvolvimento híbrido. Na segunda parte vou mostrar como instalar e configurar o ambiente para desenvolver uma aplicação cordova utilizando ionic e consumindo dados de uma API REST.

@@ -1,26 +1,22 @@
 exclude: [vendor]
 markdown: redcarpet
 highlighter: pygments
+
 gems:
   - jemoji
   - jekyll-paginate
 
-title: "Luis Vasconcellos"
-description: >
-  My thoughts on software development
-
-email: luis@luisvasconcellos.com
-
 logo: "/assets/images/luis.jpg"
-cover: "/assets/images/cover.jpg"
-
-paginate:	5
-
-name: 'Luis Vasconellos'
-author: 'Luis Vasconellos'
-author_image: "/assets/images/luis.jpg"
+title: "Luis Vasconcellos"
 
 url: "http://luisvasconcellos.com"
+name: 'Luis Vasconcellos'
+email: luis@luisvasconcellos.com
+author: 'Luis Vasconcellos'
+author_image: "/assets/images/luis.jpg"
+author_job_title: Full Stack Developer at DTM
+
+paginate:	5
 
 social:
   - icon:	twitter
