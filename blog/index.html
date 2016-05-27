@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<h1 class="title">BLOG</h1>
+
+<main class="content not-blank" role="main">
+  <div class="cf frame">
+    {% for post in paginator.posts %}
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+        <div class="article-item">
+          <header class="post-header">
+            <h1 class="main post-title" itemprop="name">
+              <a href="{{ post.url }}" itemprop="url">{{ post.title }}</a>
+            </h1>
+          </header>
+
+          <section class="post-excerpt" itemprop="description">
+            <p>
+              {% if post.content contains "<!-- more -->" %}
+                {{ post.content | split:"<!-- more -->" | first % }}
+              {% else %}
+                {{ post.content | strip_html | truncatewords:50 }}
+              {% endif %}
+            </p>
+          </section>
+
+          <div class="post-meta">
+            <span>
+              <a href="{{ post.url }}">Continue lendo...</a>
+            </span>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</main>

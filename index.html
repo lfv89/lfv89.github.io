@@ -1,35 +1,90 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 80vh;
+      }
 
-<main class="content not-blank" role="main">
-  <div class="cf frame">
-    {% for post in paginator.posts %}
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-        <div class="article-item">
-          <header class="post-header">
-            <h2 class="post-title" itemprop="name">
-              <a href="{{ post.url }}" itemprop="url">{{ post.title }}</a>
-            </h2>
-          </header>
-          <section class="post-excerpt" itemprop="description">
-            <p>
-              {% if post.content contains "<!-- more -->" %}
-                {{ post.content | split:"<!-- more -->" | first % }}
-              {% else %}
-                {{ post.content | strip_html | truncatewords:50 }}
-              {% endif %}
-            </p>
-          </section>
+      section.main {
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+        text-transform: uppercase;
 
-          <div class="post-meta">
-            <span>
-              <a href="{{ post.url }}">Continue lendo</a>
-            </span>
-            - {{ post.read_time }} read
-          </div>
-        </div>
-      </article>
-    {% endfor %}
-  </div>
-</main>
+        top: 50%;
+        position: relative;
+        transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+
+        width: 70%;
+        padding: 8px;
+      }
+
+      section.main h1 {
+        margin: 0;
+        font-size: 60px;
+      }
+
+      section.main ul {
+        list-style: none;
+      }
+
+      section.main ul li {
+        display: inline;
+        font-size: 20px;
+      }
+
+      section.main ul.links {
+      }
+
+      section.main ul.links li {
+        font-size: 25px;
+        margin-right: 30px;
+      }
+
+      section.main ul.links li a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      section.main ul.social {
+        margin-top: 20px;
+      }
+
+      section.main ul.social li {
+        font-size: 23px;
+        margin-right: 30px;
+      }
+
+      section.main ul.social li a {
+        color: #000;
+      }
+    </style>
+
+    <link href='https://fonts.googleapis.com/css?family=Kanit:400,800,900' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <section class="main">
+      <h1>Luis Vasconcellos</h1>
+
+      <ul class="links">
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="mailto:luis@luisvasconcellos.com">CONTACT</a></li>
+      </ul>
+
+      <ul class="social">
+        <li><a href="https://br.linkedin.com/in/luis-vasconcellos-43a23430" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="http://github.com/lfv89" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="http://twitter.com/lfv89" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      </ul>
+
+    </section>
+
+    <script src="https://use.fontawesome.com/7efbbdc1dd.js"></script>
+
+  </body>
+</html>

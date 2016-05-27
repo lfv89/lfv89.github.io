@@ -6,50 +6,29 @@
   </head>
 
   <body itemscope itemtype="http://schema.org/Article">
-    <div class="not-blank">
-      <a href="http://luisvasconcellos.com" class="logo-readium">
-        <span class="logo" style="background-image: url(/assets/images/luis.jpg)"></span>
-      </a>
-    </div>
-
     <main class="content" role="main">
       <article class="not-index post">
-        {% if page.image %}
-        <div class="article-image">
-          <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
-          </div>
-          <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-          </div>
-        </div>
-        {% else %}
         <div class="noarticleimage">
-          <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-          </div>
+          <h1 class="post-title">{{ page.title }}</h1>
         </div>
         <br>
-        {% endif %}
+
         <section class="post-content">
-          <div class="post-reading">
-            <span class="post-reading-time"></span> read
-          </div>
-          <a name="topofpage"></a>
           {{content}}
         </section>
-        <div class="bottom-teaser cf">
-          <div class="isLeft">
-            <h5 class="index-headline featured"></h5>
-            <section class="author">
-              <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
-              <h4>{{ site.author }}</h4>
-              <p class="bio">{{site.author_job_title}}</p>
-              <p class="bio">Sou um desenvolvedor apaixonado pelo que faço. Até o momento tenho dedicado minha carreira à construção de produtos feitos principalmente com ruby e javascript para a Web, iOS e Android.
-            </section>
-          </div>
-          {{/post}}
+
+        <div class="isLeft">
+          <section class="author">
+            <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
+            <h4>{{ site.author }}</h4>
+            <p class="bio">{{site.author_job_title}}</p>
+            <p class="bio">Sou um desenvolvedor apaixonado pelo que faço. Até o momento tenho dedicado minha carreira à construção de produtos feitos principalmente com ruby e javascript para a Web, iOS e Android.
+          </section>
         </div>
+
+        {{/post}}
       </article>
+
       <div id="disqus_thread"></div>
       <br/>
     </main>
