@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<h1 class="title">ABOUT</h1>
 
 <main class="content not-blank" role="main">
+  <h1>About</h1>
   <div class="cf frame">
     <article class="post about" itemscope itemtype="http://schema.org/BlogPosting" role="article">
       <div class="article-item">
