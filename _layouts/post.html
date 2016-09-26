@@ -3,6 +3,25 @@
   <head>
     {% include meta.html %}
     {% include stylesheets.html %}
+
+    <style>
+      .author ul li {
+        display: inline;
+        font-size: 20px;
+      }
+
+      .author ul.skills {
+        margin-top: -10px;
+        padding-left: 100px;
+      }
+
+      .author ul.skills li {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+    </style>
+
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
   </head>
 
   <body itemscope itemtype="http://schema.org/Article">
@@ -20,9 +39,21 @@
         <div class="isLeft">
           <section class="author">
             <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
+
             <h4>{{ site.author }}</h4>
+
             <p class="bio">{{site.author_job_title}}</p>
+
+            <ul class="skills">
+              <li><i class="devicons devicons-ruby" aria-hidden="true"></i></li>
+              <li><i class="devicons devicons-ruby_on_rails"  aria-hidden="true"></i></li>
+              <li><i class="devicons devicons-angular" aria-hidden="true"></i></li>
+              <li><i class="devicons devicons-ionic" aria-hidden="true"></i></li>
+              <li><i class="devicons devicons-docker" aria-hidden="true"></i></li>
+            </ul>
+
             <p class="bio">Sou um desenvolvedor apaixonado pelo que faço. Até o momento tenho dedicado minha carreira à construção de produtos feitos principalmente com ruby e javascript para a Web, iOS e Android.
+
           </section>
         </div>
 
