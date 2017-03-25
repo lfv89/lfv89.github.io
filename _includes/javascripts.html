@@ -1,30 +1,3 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
-<script type="text/javascript" src="/assets/js/min/github-box.js"></script>
-
-<script>
-  $(function () {
-    $('[data-repo]').github();
-
-    $('.post-content').readingTime({
-        readingTimeTarget: '.post-reading-time',
-        wordCountTarget: '.post-word-count',
-    });
-
-    $('a:not(.not-blank a)').attr('target', '_blank');
-  });
-</script>
-
-<script type="text/javascript">
-  var disqus_shortname = 'luisvasconcellos';
-
-  (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
