@@ -1,0 +1,13 @@
+section {
+  width: 60%;
+  margin: 60px auto;
+}
+
+section h1, h2, h3, h4 {
+  font-family: 'Kanit', sans-serif;
+}
+
+section p, ul, li {
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+}
