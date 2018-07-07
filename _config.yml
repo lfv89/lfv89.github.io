@@ -1,0 +1,24 @@
+me:
+  name: Luis Vasconcellos
+  phone: '+55 21 995100576'
+  email: luis@luisvasconcellos.com
+  location: Rio de Janeiro, Brazil
+
+  occupation: Software Engineer
+
+  employer: 'enjoei :P'
+
+  social:
+    medium: https://medium.com/@lfv89
+    instagram: https://instagram.com/lfv89
+    twitter: http://twitter.com/lfv89
+    github: http://github.com/lfv89
+    linkedin: https://br.linkedin.com/in/lfv89
+
+employer:
+  name: enjoei :P
+  url: https://enjoei.com.br
+
+collections:
+  pages:
+    output: true
