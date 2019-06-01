@@ -5,7 +5,7 @@ me:
   location: São Paulo, Brazil
   website: http://luisvasconcellos.com
 
-  occupation: Software Engineer
+  occupation: Software Developer
 
   social:
     medium: https://medium.com/@lfv89
@@ -15,8 +15,8 @@ me:
     linkedin: https://br.linkedin.com/in/lfv89
 
 employer:
-  name: enjoei.com
-  url: https://enjoei.com.br
+  name: Qulture.Rocks (YC W2018)
+  url: https://qulture.rocks
 
 collections:
   pages:
