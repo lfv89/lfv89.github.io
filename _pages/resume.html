@@ -7,20 +7,37 @@ permalink: resume.html
 <header id="info">
   <h1>{{ site.me.name }}</h1>
   <span>
-    {{ site.me.location }}
-    &bull;
-    {{ site.me.phone }}
-    &bull;
     {{ site.me.email }}
-    &bull;
-    {{ site.me.website }}
+   &nbsp;&bull;&nbsp;
+    {{ site.me.phone }}
+   &nbsp;&bull;&nbsp;
+    {{ site.me.location }}
   </span>
 </header>
 
 <section id="about">
   <h2>About</h2>
-  <p>I'm a thoughtful, empathetic and passionate developer. For 7+ years now I've been helping teams and organizations to succeed through the use of a variety of different tools and frameworks. Currently my main area of interest lies in the intersection between the fields of Software Engineering and Distributed Systems.</p>
+  <div class="table">
+  <div class="tablerow">
+    <span class="onlinecell">Website:</span>
+    <span class="urlcell">lfv89.dev</span>
+  </div>
+    <div class="tablerow">
+      <span class="onlinecell">Github:</span>
+      <span class="urlcell">github.com/lfv89</span>
+    </div>
+    <div class="tablerow">
+      <span class="onlinecell">Medium:</span>
+      <span class="urlcell">medium.com/@lfv89</span>
+    </div>
+  </div>
+
+  <p>I'm a thoughtful, empathetic and passionate Software Developer. Since 2012 I've been helping people to grow and teams to succeed through the use of both mentoring techniques and technological tools. My main area of interest lies in the intersection between the Software Engineering and Distributed Systems fields. </p>
+
+  <p>Besides being a long time <strong>Ruby</strong> developer, in the past few years I've been working more and more with <strong>Go</strong>. I've build from the ground up Enjoei's search service with Go, Kafka and Elastic, and I also have some open source projects in Go like a Tmux Calendar for the Tmux's statusline, and right now I am making a (really) small scale Google Analytics with Go, specifically for learning purposes.</p>
 </section>
+
+<br/>
 
 <section id="employment">
   <h2>Employment</h2>
@@ -32,15 +49,17 @@ permalink: resume.html
         <span class="right">May 2019 - Present</span>
       </div>
       <div class="tablerow">
-        <span>Qulture.Rocks</span>
+        <span>Qulture.Rocks (YC 2018)</span>
         <span class="right">São Paulo, SP, Brazil</span>
       </div>
     </div>
     <p>
       Qulture.Rocks is on a mission to help people and companies unlock their potential by helping them implement a strong culture with ongoing feedback, agile goals, 1:1s and performance management. We have more than 200 customers invested by top-notch investors like Blackstone, Sequoia Capital, and Founders Fund.
+
+      Also, QultureRocks is one of the few latin americans startups ever accepted to <strong>YCombinator</strong> (batch of 2018).
     </p>
 
-    <p><i>Main Technologies: Rails, React, Docker, PostgreSQL</i></p>
+    <p><i>Main Technologies: Rails, React, Docker, PostgreSQL, Heroku, Kafka, Elastic</i></p>
     <br>
   </section>
 
@@ -66,19 +85,14 @@ permalink: resume.html
     <div class="jobtable">
       <div class="tablerow">
         <span class="jobtitle">Senior Software Developer</span>
-        <span class="right">August 2016 - June 2018</span>
-      </div>
+        <span class="right">August 2016 - June 2018</span> </div>
       <div class="tablerow">
-        <span>LoveMondays</span>
+        <span>Glassdoor Brazil</span>
         <span class="right">São Paulo, SP, Brazil</span>
       </div>
     </div>
 
     <p>LoveMondays is the biggest platform of its kind in LATAM. Its purpose is to bring transparency to the job market by empowering employees to anonymously rate and review their employers, also letting them find out more about jobs, salaries and ratings at other companies. Glassdoor acquired LoveMondays in 2016 and since then the company became their official representative in Brazil, Mexico and Argentina.</p>
-
-    <p>Here I was member of the company's product team. My main technical responsibilities included mentoring less experienced teammates, shipping new features, helping the team with technical decisions and delivering useful and legible code in a reasonable amount of time. </p>
-
-    <p>The non-technical aspects included emotionally supporting the team through stressful periods, assessing and interviewing candidates for positions in the team and bringing innovation through new ideas and technologies.</p>
 
     <p><i>Main Technologies: Rails, Docker, PostgreSQL, ElasticSearch</i></p>
     <br>
@@ -97,12 +111,6 @@ permalink: resume.html
     </div>
 
     <p>DTM is a software boutique that since its foundation has made several different projects for medium and large companies such as Vivo, Technip, Supergasbras and many other ones. Around 2014 it became one of the main Salesforce partners in Brazil, a parternship that brought even more important projects and customers to the company.</p>
-
-    <p>While there I developed and maintained web, mobile and enterprise projects. Also brought new technologies such as AngularJS and Ionic 1; both had a huge positive impact in the team and along with Rails became one of the company's main technologies ever since.</p>
-
-    <p>Also handled the infrastructure of those projects, mainly with Heroku and AWS, working also with Postgres and Elasticsearch. In almost every project some kind of integration was necessary, so I did lots of them, especially with Salesforce and Oracle.</p>
-
-    <p>Finally while there I brought both Rails and Ionic meetups to be held at the company's office, which in turn helped attracting new talents and even some new clients.</p>
 
     <p><i>Main Technologies: Rails, PL/SQL, Heroku, AngularJS, Ionic1, ElasticSearch, Oracle, Salesforce</i></p>
     <br>
@@ -136,12 +144,12 @@ permalink: resume.html
         <span class="right">Niterói, RJ, Brazil</span>
       </div>
     </div>
-    <p>At the beginning of my second year as an undergraduate student, I passed an exam that qualified me as a Calculus Tutor for the Group of Applied Mathematics (GMA). My responsibilites were helping other STEM students preparing for their exams, which covered topics like: limits, derivatives, integration and other standard Calculus topics.</p>
-    <br>
+    <p>At the beginning of my second year as an undergraduate student, I passed an exam that qualified me as a Calculus Tutor for the Group of Applied Mathematics (GMA) at my university. My responsibilites were helping other STEM students preparing for their exams, which covered topics like: limits, derivatives, integration and other standard Calculus topics.</p>
   </section>
 </section>
 
-<div class="pagebreak"></div>
+<br/>
+
 <section id="education">
   <h2>Education</h2>
   <div class="edtable">
@@ -180,19 +188,3 @@ permalink: resume.html
     </div>
   </div>
 </section>
-
-<section id="online">
-  <h2>Online</h2>
-  <div class="table">
-    <div class="tablerow">
-      <span class="onlinecell">Blog:</span>
-      <span class="urlcell">medium.com/@lfv89</span>
-    </div>
-    <div class="tablerow">
-      <span class="onlinecell">GitHub:</span>
-      <span class="urlcell">github.com/lfv89</span>
-    </div>
-  </div>
-</section>
-
-<br>
