@@ -1,33 +1,21 @@
-em {
-  font-size: 14px;
-}
-
-img {
-  float: left;
-  height: 300px;
-  margin-right: 15px;
-  margin-bottom: 10px;
-}
-
-section {
-  width: 60%;
-  margin: 60px auto;
-}
-
-section h1 {
+h1 {
   font-size: 1.5em;
 }
 
-section h2 {
+h2 {
   font-size: 1.2em;
 }
 
-section p, ul, li {
+p, ul, li {
   text-align: justify;
   font-family: 'Open Sans', sans-serif;
 }
 
-section h1, h2, h3, h4 {
+h1, h2, h3, h4 {
   font-family: 'Kanit', sans-serif;
 }
 
+section.main {
+  width: 60%;
+  margin: 60px auto;
+}
