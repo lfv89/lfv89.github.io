@@ -1,0 +1,21 @@
+articles:
+  -
+    date: 09/02/2019
+    link: https://medium.com/@lfv89/rackless-ruby-servers-why-not-a9f8430067dd
+    title: "Rackless Ruby Servers: Why not?"
+  -
+    date: 25/08/2018
+    link: https://medium.com/@lfv89/rails-console-magic-tricks-da1fdd657d32
+    title: Rails Console Magic Tricks
+
+projects:
+  -
+    meta: vim plugin
+    name: vim-interestingwords
+    link: https://github.com/lfv89/vim-interestingwords
+    description: for highlighting/navigating through different words in a Vim buffer
+  -
+    meta: tmux plugin
+    name: tmux-calendar
+    link: https://github.com/lfv89/tmux-calendar
+    description: for showing your next Google Calendar event on the Tmux status line

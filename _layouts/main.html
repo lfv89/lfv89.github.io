@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Luis Vasconcellos's</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=1.0, user-scalable=yes">
+  </head>
+  <body>
+    <br>
+    <center>
+      <div class="page-title">
+        <b>LUIS VASCONCELLOS</b>
+      </div>
+    </center>
+    <br/><br/>
+    <div class='heading'>Hey There!</div>
+    <hr/>
+    <p>{{ content }}</p>
+    <div class='heading'>Some of my projects</div>
+    <hr/>
+    <p style="text-align: left;margin-bottom: 1ch;">
+    <ul>
+      {% for project in site.projects %}
+      <li>
+        A <a target="_blank" href="{{ project.link }}">{{ project.meta }}</a> {{ project.description }}
+      </li>
+      {% endfor %}
+    </ul>
+
+    </p>
+    <div class='heading'>Some of my writting</div>
+    <hr/>
+    <p style="text-align: left;margin-bottom: 1ch;">
+    <ul>
+      {% for article in site.articles %}
+      <li>
+        On {{ article.date }} I wrote about <a target="_blank" href="{{ article.link }}">{{ article.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    </p>
+  </body>
+</html>
